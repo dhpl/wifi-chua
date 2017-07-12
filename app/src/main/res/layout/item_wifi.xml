@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txtTenWifi"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                tools:text="Tên Wifi"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="5dp"
+                />
+            <TextView
+                android:id="@+id/txtKhoangCach"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                tools:text="0 Km"
+                android:gravity="end"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtDiaChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Địa chỉ"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txtMatKhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Mật khẩu"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

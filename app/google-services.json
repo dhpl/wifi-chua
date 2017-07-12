@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "532430964471",
+    "firebase_url": "https://wifichua-feee2.firebaseio.com",
+    "project_id": "wifichua-feee2",
+    "storage_bucket": "wifichua-feee2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532430964471:android:3efba04bc2ef81ca",
+        "android_client_info": {
+          "package_name": "com.philong.wifichua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532430964471-6ucgl5rpbq5lreermla2elnokd2qomgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.philong.wifichua",
+            "certificate_hash": "6b4569060d6466dc96b33b9c0830c229639c0f90"
+          }
+        },
+        {
+          "client_id": "532430964471-r825nv5fkh19etv59v84jrim04ois021.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW_nrzpU_8hvH3_3HuP3D5eJYf5TixHu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532430964471-r825nv5fkh19etv59v84jrim04ois021.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
